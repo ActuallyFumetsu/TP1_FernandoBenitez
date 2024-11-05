@@ -1,0 +1,82 @@
+<!-- pagina1.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Productos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 20px;
+        }
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            width: 80%;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        a {
+            font-size: 0.8em;
+            text-decoration: none;
+            color: #007bff;
+        }
+        a:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabla de Productos</h1>
+    <table>
+        <tr>
+            <th>Producto</th>
+            <th>Descripción</th>
+            <th>Precio</th>
+        </tr>
+        <tr>
+            <td>Leche</td>
+            <td>Leche entera de 1 litro</td>
+            <td>$1.20</td>
+        </tr>
+        <tr>
+            <td>Pan</td>
+            <td>Pan de caja de 500g</td>
+            <td>$1.50</td>
+        </tr>
+        <tr>
+            <td>Huevos</td>
+            <td>Docena de huevos</td>
+            <td>$2.00</td>
+        </tr>
+        <tr>
+            <td>Manzanas</td>
+            <td>Manzanas rojas, paquete de 1kg</td>
+            <td>$3.00</td>
+        </tr>
+        <tr>
+            <td>Jugo de Naranja</td>
+            <td>Botella de jugo natural, 1 litro</td>
+            <td>$1.80</td>
+        </tr>
+        <tr>
+            <td>Arroz</td>
+            <td>Paquete de arroz de 1kg</td>
+            <td>$1.00</td>
+        </tr>
+    </table>
+    <br>
+    <a href="index.html">Volver</a>
+</body>
+</html>
