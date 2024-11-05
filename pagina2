@@ -1,0 +1,73 @@
+<!-- pagina2.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imágenes de Productos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 20px;
+        }
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .product-item {
+            width: 150px;
+            text-align: center;
+        }
+        .product-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+        }
+        a {
+            display: block;
+            margin-top: 20px;
+            font-size: 0.8em;
+            text-decoration: none;
+            color: #007bff;
+        }
+        a:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Imágenes de Productos</h1>
+    <div class="product-grid">
+        <div class="product-item">
+            <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F9%2F9c%2FMilk_jugs_in_a_row.jpg&f=1&nofb=1&ipt=4d6ffe3dc8c8a489d7fd63d2fab8651656a24ae4aa10a9b5387492f5c957e67b&ipo=images" alt="Leche">
+            <p>Leche</p>
+        </div>
+        <div class="product-item">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.thespruceeats.com%2Fthmb%2F7d1TnZi-8XvIrqY5-8x2Xx-DfRA%3D%2F3000x2000%2Ffilters%3Afill(auto%2C1)%2Fwhole-wheat-french-bread-427516-2bc852db1696456d86d1a03674ead530.jpg&f=1&nofb=1&ipt=03728f6b6307cb207373f925aadf82d3ccf2e4988df559c61fedae65e755083b&ipo=images" alt="Pan">
+            <p>Pan</p>
+        </div>
+        <div class="product-item">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.britannica.com%2F94%2F151894-050-F72A5317%2FBrown-eggs.jpg&f=1&nofb=1&ipt=e018fe48ac9387bba908415a9bf0a8e187a6674ac98dc7392ed6f835a6c0f514&ipo=images" alt="Huevos">
+            <p>Huevos</p>
+        </div>
+        <div class="product-item">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi1.wp.com%2Fblog.hellofresh.com%2Fwp-content%2Fuploads%2F2016%2F10%2FHF160920_Global_Blog_All_About_Apples_15_low-1.jpg%3Ffit%3D3180%252C2120%26ssl%3D1&f=1&nofb=1&ipt=8fb24ffdbf9091772d9443a298f765b9a0ab83cb28b504beb7b7ab2f1d4c66d0&ipo=images" alt="Manzanas">
+            <p>Manzanas</p>
+        </div>
+        <div class="product-item">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.heb.com%2Fis%2Fimage%2FHEBGrocery%2F000914774&f=1&nofb=1&ipt=3a6d84dbb76b92796145ec04331ff2cb96173588557392d4924fb75cbcca459d&ipo=images" alt="Jugo de Naranja">
+            <p>Jugo de Naranja</p>
+        </div>
+        <div class="product-item">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.thedailymeal.com%2Fimg%2Fgallery%2Ftypes-of-rice-and-how-to-cook-them%2Fl-intro-1676410300.jpg&f=1&nofb=1&ipt=9572b9f7a4cc4669ec4f3c151a0a6f814aadc382541b33d2c0363a3ea5c3692b&ipo=images" alt="Arroz">
+            <p>Arroz</p>
+        </div>
+    </div>
+    <a href="index.html">Volver</a>
+</body>
+</html>
