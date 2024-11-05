@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Título de la página</title>
+    </head>
+    <body>
+
+        <nav>Esta es el Navbar de mi página web</nav>
+
+        <h1>Mi primera título</h1>
+        <p>Mi primer párrafo.</p>
+
+        <img src = "https://miro.medium.com/max/1584/1*lJ32Bl-lHWmNMUSiSq17gQ.png"/>
+
+        <footer>
+          <p>Pie de página</p>
+        </footer>
+
+    </body>
+</html>
