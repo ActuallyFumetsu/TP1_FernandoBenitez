@@ -1,31 +1,21 @@
-<head>
-	<title>Título página</title>
-    
-    <style>
+<!DOCTYPE html>
 
-    body {
-      background-color: lightblue;
-      margin: 0;
-      text-align: center;
-    }
+<html>
+    <head>
+        <title>Título de la página</title>
+    </head>
+    <body>
 
-    nav {
-     background-color: black;
-     width: 100%;
-     color: white;
-     height: 50px;
-     padding-top: 25px;
-    }
+        <nav>Esta es el Navbar de mi página web</nav>
 
-    h1 {
-     color: black;
-    }
+        <h1>Mi primera título</h1>
+        <p>Mi primer párrafo.</p>
 
-    footer {
-     background-color: gray;
-     color: white;
-     padding: 5px;
-    }
+        <img src = "https://miro.medium.com/max/1584/1*lJ32Bl-lHWmNMUSiSq17gQ.png"/>
 
-    </style>
-</head>
+        <footer>
+          <p>Pie de página</p>
+        </footer>
+
+    </body>
+</html>
